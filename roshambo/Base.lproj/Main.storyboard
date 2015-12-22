@@ -3,7 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Choose View Controller-->
@@ -77,12 +77,10 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4eN-3b-uhj">
-                                <rect key="frame" x="0.0" y="137" width="588" height="340"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4eN-3b-uhj">
+                                <rect key="frame" x="40" y="137" width="508" height="340"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="580" id="3mL-ml-1tG"/>
-                                    <constraint firstAttribute="width" secondItem="4eN-3b-uhj" secondAttribute="height" multiplier="29:17" id="QlA-CO-XeL"/>
-                                    <constraint firstAttribute="height" constant="340" id="RsC-KL-kiD"/>
+                                    <constraint firstAttribute="height" constant="340" id="NPr-9F-gIk"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QQT-dX-u39">
@@ -96,10 +94,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="flf-M8-kzj" firstAttribute="centerX" secondItem="72p-F8-j5g" secondAttribute="centerX" id="N63-nE-hfD"/>
+                            <constraint firstItem="4eN-3b-uhj" firstAttribute="leading" secondItem="72p-F8-j5g" secondAttribute="leadingMargin" constant="20" id="Sky-3L-3bE"/>
                             <constraint firstItem="QQT-dX-u39" firstAttribute="centerX" secondItem="72p-F8-j5g" secondAttribute="centerX" id="WCt-pH-pMW"/>
-                            <constraint firstItem="4eN-3b-uhj" firstAttribute="centerX" secondItem="72p-F8-j5g" secondAttribute="centerX" id="ZyC-48-RYn"/>
                             <constraint firstItem="flf-M8-kzj" firstAttribute="top" secondItem="zoq-Tz-uqz" secondAttribute="bottom" constant="33" id="eeD-2V-hg3"/>
-                            <constraint firstItem="4eN-3b-uhj" firstAttribute="top" secondItem="zoq-Tz-uqz" secondAttribute="bottom" constant="73" id="oqw-wx-94M"/>
+                            <constraint firstItem="4eN-3b-uhj" firstAttribute="top" secondItem="zoq-Tz-uqz" secondAttribute="bottom" constant="73" id="mZi-8i-hCP"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="4eN-3b-uhj" secondAttribute="trailing" constant="32" id="tN4-Ka-Hnm"/>
                             <constraint firstItem="74X-Sa-EQi" firstAttribute="top" secondItem="QQT-dX-u39" secondAttribute="bottom" constant="49" id="w5o-Ie-mXi"/>
                         </constraints>
                     </view>

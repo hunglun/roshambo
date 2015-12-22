@@ -26,7 +26,7 @@ class ResultViewController: UIViewController {
     
     override func viewWillAppear(animated: Bool) {
       
-
+        imageView.backgroundColor = UIColor(red: 0.5, green: 1, blue: 0, alpha: 1)
         
         if let leftHandValue = self.leftHandValue {
             let rightHandValue : Roshambo = randomValue()
