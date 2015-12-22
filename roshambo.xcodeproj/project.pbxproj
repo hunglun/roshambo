@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		FAFC3E9B1C295CAA00895FCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC3E9A1C295CAA00895FCA /* AppDelegate.swift */; };
-		FAFC3E9D1C295CAA00895FCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC3E9C1C295CAA00895FCA /* ViewController.swift */; };
+		FAFC3E9D1C295CAA00895FCA /* ChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC3E9C1C295CAA00895FCA /* ChooseViewController.swift */; };
 		FAFC3EA01C295CAA00895FCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFC3E9E1C295CAA00895FCA /* Main.storyboard */; };
 		FAFC3EA21C295CAA00895FCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAFC3EA11C295CAA00895FCA /* Assets.xcassets */; };
 		FAFC3EA51C295CAA00895FCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFC3EA31C295CAA00895FCA /* LaunchScreen.storyboard */; };
+		FAFC3EAD1C29600400895FCA /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC3EAC1C29600400895FCA /* ResultViewController.swift */; };
+		FAFC3EAF1C2965A000895FCA /* RoshamboModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC3EAE1C2965A000895FCA /* RoshamboModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FAFC3E971C295CAA00895FCA /* roshambo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = roshambo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAFC3E9A1C295CAA00895FCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FAFC3E9C1C295CAA00895FCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAFC3E9C1C295CAA00895FCA /* ChooseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseViewController.swift; sourceTree = "<group>"; };
 		FAFC3E9F1C295CAA00895FCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAFC3EA11C295CAA00895FCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAFC3EA41C295CAA00895FCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAFC3EA61C295CAA00895FCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAFC3EAC1C29600400895FCA /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		FAFC3EAE1C2965A000895FCA /* RoshamboModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoshamboModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				FAFC3E9A1C295CAA00895FCA /* AppDelegate.swift */,
-				FAFC3E9C1C295CAA00895FCA /* ViewController.swift */,
+				FAFC3E9C1C295CAA00895FCA /* ChooseViewController.swift */,
+				FAFC3EAE1C2965A000895FCA /* RoshamboModel.swift */,
 				FAFC3E9E1C295CAA00895FCA /* Main.storyboard */,
+				FAFC3EAC1C29600400895FCA /* ResultViewController.swift */,
 				FAFC3EA11C295CAA00895FCA /* Assets.xcassets */,
 				FAFC3EA31C295CAA00895FCA /* LaunchScreen.storyboard */,
 				FAFC3EA61C295CAA00895FCA /* Info.plist */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAFC3E9D1C295CAA00895FCA /* ViewController.swift in Sources */,
+				FAFC3E9D1C295CAA00895FCA /* ChooseViewController.swift in Sources */,
 				FAFC3E9B1C295CAA00895FCA /* AppDelegate.swift in Sources */,
+				FAFC3EAF1C2965A000895FCA /* RoshamboModel.swift in Sources */,
+				FAFC3EAD1C29600400895FCA /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +294,7 @@
 				FAFC3EAB1C295CAA00895FCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
