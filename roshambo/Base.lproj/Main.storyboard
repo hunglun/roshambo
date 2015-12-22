@@ -52,7 +52,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="3ma-4z-qkd"/>
                     <connections>
-                        <segue destination="B1h-Me-h9x" kind="show" identifier="showMatchResult" id="mJS-X4-z63"/>
+                        <segue destination="B1h-Me-h9x" kind="presentation" identifier="showMatchResult" id="mJS-X4-z63"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
