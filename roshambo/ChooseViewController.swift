@@ -27,7 +27,7 @@ class ChooseViewController: UIViewController {
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if let id = segue.identifier where id == "showMatchResult" {
             let destViewController = segue.destinationViewController as! ResultViewController
-            destViewController.leftHandValue = self.value
+            destViewController.userValue = self.value
 
             
         
